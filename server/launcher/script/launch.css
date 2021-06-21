@@ -1,0 +1,184 @@
+@charset "utf-8";
+/* CSS Document */
+html { 
+	border: 0px;
+	overflow-x: hidden; 
+	overflow-y: hidden;
+}
+table {
+  border-collapse: collapse; 
+  table-layout : fixed; 
+}
+ 
+table, body, th, tr, td, p, div, ul, form, fieldset, li, dl, dt, dd, ol, input, h1, h2, h3, h4, h5 { 
+  font-family: Tahoma;	
+  font-size:12px;	
+  line-height:1.24em;	
+  font-variant:small-caps;
+  color:#7b7b7b; 
+}
+ 
+a, a:hover { 
+  color:#5d5d5d;
+  text-decoration:none; 
+}
+
+fieldset, img {
+  border:none; 
+}
+
+legend { 
+  display:none;
+}
+
+ul, li { 
+  list-style:none; 
+}
+
+* {	
+  margin:0; padding:0; 
+}
+em { 
+  font-style:normal;
+}
+
+.logo {	
+  position:absolute; 
+  width: 254px; 
+  height: 69px; 
+  left: 99px; 
+  top: 92px; }
+
+/* BG */
+.bg { 
+  background:url(../img/bg.jpg) no-repeat;
+  width:764px;
+  height:357px;
+  position:relative; 
+}
+
+/*content */
+.content { 
+  padding:18px 0 0 437px; 
+  height:322px; 
+}
+
+.notice_box { 
+  width:313px; 
+  height:153px; 
+  background:url(../img/bg_notice.html) no-repeat; 
+  clear:both; 
+  display:inline-block; 
+}
+
+.notice_box h2 { 
+  float:left; 
+}
+
+.notice_box .tab01 { 
+  margin-left:10px; 
+  display:inline; 
+}
+
+.more {	
+  float:right; 
+  padding-right:4px;
+  padding-top:11px;
+}
+
+.notice { 
+  width:297px;
+  margin-top:10px;
+  display:inline-block;
+  clear:both;
+  margin-left:12px;
+}
+
+.notice img { 
+  margin-right:0px; 
+}
+
+.notice li {
+  height:22px;
+}
+
+.notice_txt, .notice_txt *, .notice_txt a:hover {
+  letter-spacing:0pt;
+}
+
+.notice_pont {
+  font-weight:bold;
+  color:#a3a2a2;
+}
+
+.notice_txt a:hover {
+  text-decoration:underline;
+}
+
+.issue {
+  width:313px;
+  margin-top:8px;
+  margin-left:0px;
+  float:left;
+  display:block;
+}
+
+.issue_banner {
+  background-image:url(../img//bg_issue.jpg);
+  width:313px;
+  height:161px;
+  position:relative;
+}
+
+.issue_bg {
+  position:absolute;
+  left: 4px;
+  top: 133px;
+  width:242px;
+  height:25px;
+}
+
+.issue_select {
+  position:absolute;
+  left:10px;
+  top: 137px;
+  height:15px;
+  width:295px; 
+}
+
+.issue_select p {
+  text-align:right;
+}
+
+.issue_select img {
+  margin-left:2px;
+}
+
+.issue_banner_img {
+  position: absolute;
+  z-index: 0;
+  left:4px;
+  top:4px;
+}
+
+#banner {
+  width:101px;
+  height:81px;
+  position:absolute;
+  left:345px;
+  top:255px;
+  z-index:1;
+}
+
+#maintenance{
+	width: 764px;
+	height: 337px;
+	background-color: #000;
+	z-index: 10000;
+	padding-top: 20px;
+	position: fixed;
+	text-align: center;
+	
+	}
+	
+}
